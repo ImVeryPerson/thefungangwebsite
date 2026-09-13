@@ -4,6 +4,145 @@
     text-align: center;
 }
 
+h1  {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    font-size: 45px;
+    background-color: #000;
+}
+
 body  {
     background-color:#000;
+}
+
+.topnav  {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 50px;
+    background-image: "castletown.png";
+    overflow: hidden;
+    border-width: 8px;
+    border-style: ridge;
+}
+.topnav a  {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 25px;
+    color: #FFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: "Comic Sans MS";
+}
+
+.knav {
+    padding:10px;
+    float:left;
+    margin-left: 90px;
+}
+.knav a:hover {
+    background-color: #0000ff;
+    color: #fff;
+}
+.knav a:active {
+    background-color: #000080;
+    color: #fff;
+}
+
+.snav {
+    margin-right: 300px;
+    margin-top: 11px;
+}
+.snav a:hover {
+    background-color: #ff00ff;
+    color: #fff;
+}
+.snav a:active {
+    background-color: #800080;
+    color: #fff;
+}
+
+.rnav {
+    padding: 10px;
+    float:right;
+    margin-right: 90px;
+    margin-top: -68px;
+}
+.rnav a:hover {
+    background-color: #00ff00;
+    color: #fff;
+}
+.rnav a:active {
+    background-color: #008000;
+    color: #fff;
+}
+
+.castletownright {
+    float:right;
+}
+.castletownleft {
+    float:left;
+}
+
+.textboxp {
+    float: left;
+    border-style: ridge;
+    border-width: 8px;
+    margin-left: 50px;
+    padding:30px;
+}
+
+.imagep {
+    margin:50px;
+    border-width:8px;
+    border-style: ridge;
+}
+
+.imagerr {
+    float: right;
+    margin-right:50px;
+    width: 600px;
+    border-width: 8px;
+    border-style: ridge;
+}
+.imagesr {
+    margin: 50px;
+    border-width: 8px;
+    border-style: ridge;
+    margin-top: 750px;
+}
+
+.imagepr {
+    float: right;
+    margin-right:50px;
+    width: 672px;
+    border-width: 8px;
+    border-style: ridge;
+}
+.imagesp {
+    margin: 50px;
+    border-width: 8px;
+    border-style: ridge;
+    margin-top: 700px;
+}
+
+.imagear {
+    float: right;
+    margin-right:50px;
+    width: 500px;
+    border-width: 8px;
+    border-style: ridge;
+}
+.imagesa {
+    margin: 50px;
+    border-width: 8px;
+    border-style: ridge;
+    margin-top: 800px;
 }
